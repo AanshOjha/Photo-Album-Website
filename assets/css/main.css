@@ -126,6 +126,30 @@ h6 {
   background: #2cbc85;
 }
 
+.rounded-profile-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%!important;
+  border-radius: 50%;
+}
+
+.upload-btn {
+  margin-right: 15px !important;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: #fff;
+  background: var(--color-primary);
+}
+
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
@@ -730,6 +754,10 @@ h6 {
 .gallery .gallery-links .preview-link:hover,
 .gallery .gallery-links .details-link:hover {
   color: #fff;
+}
+
+.gallery .gallery-links p {
+  text-align: left;
 }
 
 .gallery .gallery-links .details-link {
